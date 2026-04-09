@@ -1,4 +1,4 @@
-# 🚀 YAA - Portfólio Pessoal
+# 🚀 SON - Portfólio Pessoal
 
 [![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=flat-square&logo=vercel)](https://meu-portifolio-kappa-five.vercel.app/)
 [![Angular](https://img.shields.io/badge/Angular-18+-red?style=flat-square&logo=angular)](https://angular.io)
@@ -69,21 +69,4 @@ Defina a pasta de saída: dist/yaa-portfolio
 
 A cada git push, o deploy é atualizado automaticamente
 
-📱 Contato
-Email: hs482075@gmail.com
-
-Localização: Alumínio, SP
-
-Status: 🟢 Aberto a oportunidades e colaborações
-
-📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-🙏 Agradecimentos
-SESI - Ensino Médio
-
-SENAI - Curso Técnico em Desenvolvimento de Software
-
-Comunidade dev brasileira 💜
-
-Desenvolvido com ☕ e 💻 por YAA
+Desenvolvido com ☕ e 💻 por SON
