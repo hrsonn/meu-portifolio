@@ -9,7 +9,6 @@
   background: #2b64a8;
   border-radius: 14px 14px 0 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .header-titulo-principal {
@@ -17,7 +16,12 @@
   color: #ffffff;
   font-size: 1.85rem;
   text-align: center;
+  grid-column: 2 / 3; 
   justify-self: center;
+}
+
+.header-title-spacer {
+  display: block; 
 }
 
 /* MOBILE */
