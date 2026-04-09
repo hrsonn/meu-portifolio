@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quantico', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem 0;
+  background: linear-gradient(180deg, #87ceeb 0%, #87ceeb 42%, #7bc96f 42%, #4a9a3b 72%, #2d6b28 100%);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.retro-titulo {
+  font-family: 'VT323', monospace;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
