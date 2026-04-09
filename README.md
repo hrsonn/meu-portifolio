@@ -39,10 +39,10 @@ Portfólio digital desenvolvido para apresentar minha trajetória como estudante
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/yaa-portfolio.git
+git clone https://github.com/seu-usuario/meu-portfolio.git
 
 # Acesse a pasta do projeto
-cd yaa-portfolio
+cd meu-portfolio
 
 # Instale as dependências
 npm install
@@ -65,7 +65,7 @@ Conecte o repositório GitHub à Vercel
 
 Configure o comando de build: ng build --prod
 
-Defina a pasta de saída: dist/yaa-portfolio
+Defina a pasta de saída: dist/meu-portfolio
 
 A cada git push, o deploy é atualizado automaticamente
 
