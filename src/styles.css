@@ -11,8 +11,15 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 2rem 0;
-  background: linear-gradient(180deg, #87ceeb 0%, #87ceeb 42%, #7bc96f 42%, #4a9a3b 72%, #2d6b28 100%);
-  background-attachment: fixed;
+  
+  /* IMAGEM DE FUNDO */
+  background-image: url('assets/imgs/background.jpg'); 
+  background-size: cover;       
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  display: flex;
+  justify-content: center;
   display: flex;
   justify-content: center;
 }

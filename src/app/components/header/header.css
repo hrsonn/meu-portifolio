@@ -1,36 +1,82 @@
+/* =============================
+   CARD PRINCIPAL
+   Certifique-se que o pai está assim:
+   ============================= */
+.card {                      
+  padding: 0;                  
+  overflow: hidden;            
+}
+
+/* =============================
+   BARRA DO HEADER
+   ============================= */
 .header-title-bar {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 0.5rem;
   width: 100%;
-  margin: 0;
   padding: 0.5rem 0.75rem;
   background: #2b64a8;
   border-radius: 14px 14px 0 0;
   box-sizing: border-box;
+
+  /* CORREÇÃO PRINCIPAL ↓ */
+  margin: 0;                  
+  position: relative;         
 }
 
+/* =============================
+   TÍTULO PRINCIPAL
+   ============================= */
 .header-titulo-principal {
   margin: 0;
   color: #ffffff;
   font-size: 1.85rem;
   text-align: center;
-  grid-column: 2 / 3; 
-  justify-self: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
 }
 
-.header-title-spacer {
-  display: block; 
+/* =============================
+   DOTS REAIS
+   ============================= */
+.window-dots {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-width: fit-content;      
 }
 
-/* MOBILE */
+/* =============================
+   DOTS FANTASMA (equilíbrio)
+   ============================= */
+.window-dots--ghost {
+  visibility: hidden;          
+}
+
+/* =============================
+   HR separador
+   ============================= */
+hr {
+  margin: 0;                
+  border: none;
+  border-top: 2px solid #1a4a80;
+}
+
+/* =============================
+   MOBILE
+   ============================= */
 @media (max-width: 768px) {
-  .header-titulo-principal {
-    font-size: 1.2rem;
+  .header-title-bar {
+    padding: 0.4rem 0.5rem;
   }
 
-  .header-title-spacer {
-    display: none;
+  .header-titulo-principal {
+    font-size: 1.2rem;
+    white-space: normal;
+    text-align: center;
   }
 }
